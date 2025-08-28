@@ -10,6 +10,10 @@ In bringing up an Intel Realsense depth camera in simulation, I encountered vari
 
 See ```src/cloud_scan_fuser_node.cpp```.
 
+### launch/run
+
+```ros2 run point_cloud_tools cloud_scan_fuser_node```
+
 ## What is Gazebo's (implicit) transform from depth image to point cloud ???
 
 Since computing the point cloud from the depth image is such a mess, one thing I attempted to do was simply compute the appropriate transform from the depth image to the point cloud. This isn't working - yet.
